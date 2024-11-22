@@ -1,6 +1,6 @@
 # Proyecto de Asesor Financiero - GCP
 
-Este proyecto en Google Cloud Platform (GCP) permite analizar datos financieros en tiempo real de empresas del índice NASDAQ-100. La solución emplea infraestructura en la nube para la ingesta, almacenamiento y análisis de datos, y utiliza modelos de Machine Learning para extraer insights financieros.
+Este proyecto en Google Cloud Platform (GCP) permite analizar datos financieros en tiempo real de empresas del índice NASDAQ-100. La solución emplea infraestructura en la nube para la ingesta, almacenamiento y análisis de datos para extraer insights financieros.
 
 ## Objetivo
 
