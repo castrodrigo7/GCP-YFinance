@@ -1,3 +1,5 @@
+<p align=center><img src='recursos/GCP-YF.png'><p>
+
 # Proyecto de Asesor Financiero - GCP
 
 Este proyecto en Google Cloud Platform (GCP) permite analizar datos financieros en tiempo real de empresas del índice NASDAQ-100. La solución emplea infraestructura en la nube para la ingesta, almacenamiento y análisis de datos, y utiliza modelos de Machine Learning para extraer insights financieros.
@@ -11,6 +13,8 @@ El sistema está diseñado para procesar y analizar datos bursátiles histórico
 - **Visualización de datos** mediante Power BI y Looker Studio, facilitando reportes y gráficos dinámicos.
 
 ## Tecnologías Utilizadas
+
+<p align=center><img src='recursos/YFinance.jpg'><p>
 
 Para crear una arquitectura escalable y automatizada en la nube, se utilizan:
 
@@ -40,7 +44,7 @@ Para crear una arquitectura escalable y automatizada en la nube, se utilizan:
 ## Visualización
 
 - **Power BI:** Proporciona una plataforma para análisis avanzados y visualización de datos históricos.
-- **Looker Studio:** Ofrece gráficos y dashboards interactivos, ideales para reportes financieros.
+  - [Power BI]('nasdaq-100.pbix')
 
 ## Descripción General
 
