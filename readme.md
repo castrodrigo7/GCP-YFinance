@@ -43,8 +43,7 @@ Para crear una arquitectura escalable y automatizada en la nube, se utilizan:
 
 ## Visualización
 
-- **Power BI:** Proporciona una plataforma para análisis avanzados y visualización de datos históricos.
-  - [Power BI]('nasdaq-100.pbix')
+- **[Power BI](/nasdaq-100.pbix):** Proporciona una plataforma para análisis avanzados y visualización de datos históricos.
 
 ## Descripción General
 
