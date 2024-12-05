@@ -1,4 +1,4 @@
-<p align=center><img src='recursos/GCP-YF.png'><p>
+<p align=center><img src='image/GCP-YF.png'><p>
 
 # Proyecto de Asesor Financiero - GCP
 
@@ -14,7 +14,7 @@ El sistema está diseñado para procesar y analizar datos bursátiles histórico
 
 ## Tecnologías Utilizadas
 
-<p align=center><img src='recursos/YFinance.jpg'><p>
+<p align=center><img src='image/YFinance.jpg'><p>
 
 Para crear una arquitectura escalable y automatizada en la nube, se utilizan:
 
@@ -25,17 +25,18 @@ Para crear una arquitectura escalable y automatizada en la nube, se utilizan:
 - **Cloud Functions:** Para la actualización diaria automática de datos.
 - **Looker Studio y Power BI:** Para visualización y generación de reportes.
 
-## Guía de Instalación
+## Guía de Implementación
 
 ### 1. Configuración de la Máquina Virtual (VM)
-   - Crea una VM en Compute Engine de Google Cloud.
-   - Instala Python y las librerías necesarias como `yfinance`, `pandas`, `BeautifulSoup`, y `Anaconda` para extracción de datos históricos mediante web scraping.
+   - Crea una VM en Compute Engine de Google Cloud y conexión remota mediante SSH.
+   - Instalacion del entorno de Anaconda en la instancia
+   - Usar un Jupyter Server para comenzar a trabajar con Python y las librerías necesarias como `yfinance`, `pandas`, `BeautifulSoup` para extracción de datos históricos mediante web scraping.
 
 ### 2. Conexión con BigQuery
    - Configura la VM para conectarse a BigQuery como base de datos principal.
-   - Asegúrate de usar una Cuenta de Servicio con los permisos adecuados para cargar los datos extraídos en un Dataset en BigQuery, para su almacenamiento y análisis.
+   - Usar una Cuenta de Servicio con los permisos adecuados para cargar los datos extraídos en un Dataset en BigQuery, para su almacenamiento y análisis.
 
-### 3. Automatización de Ingesta de Datos
+### 3. CI/CD: Automatización de Ingesta de Datos
    - Configura **Cloud Functions** para actualizar automáticamente los datos cada día, manteniendo BigQuery siempre actualizado sin intervención manual.
 
 ### 4. Configuración de Visualización
@@ -44,6 +45,8 @@ Para crear una arquitectura escalable y automatizada en la nube, se utilizan:
 ## Visualización
 
 - **[Power BI](/nasdaq-100.pbix):** Proporciona una plataforma para análisis avanzados y visualización de datos históricos.
+
+<p align=center><img src='image/powerbi-nasdaq.png'><p>
 
 ## Descripción General
 
